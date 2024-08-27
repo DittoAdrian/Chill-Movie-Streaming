@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Chill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- login box -->
+    <div class="loginBox">
+
+        <!-- LOGIN -->
+        <div id="boxLogin" class="formBox">
+
+            <div class="formLogo">
+                <img src="image/Chill-Logo.svg" alt="Chill Logo">
+                <h1>CHILL</h1>
+            </div>
+
+            <div class="formGreeting">
+                <h2>Masuk</h2>
+                <p>Selemat datang kembali</p>
+            </div>
+
+            <!-- FORM -->
+            <form class="inputLogin">
+                <div class="inputPassword">
+                    <label for=""><b>Username</b></label>
+                    <input type="text" placeholder="Masukan username">
+                </div>
+                <div class="inputPassword">
+                    <label for=""><b>Kata sandi</b></label>
+                    <input id="password" type="password" placeholder="Masukan kata sandi">
+                    <img id='hideButton'src="image/visibility_off.svg"onClick='pass()' >
+                </div>               
+            </form>
+            
+            <div class="daftar">
+                <p>Belum punya akun?<a id="signIn" href="#">Daftar</a></p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Lupa Password?</a>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="buttonLogin">
+                <a href="homepage.html">
+                    <button class="buttonMasuk">Masuk</button>
+                </a>
+                <p>Atau</p>
+                <button class="buttonMasuk google-login"><img src="image/google.png" alt="Google"> Masuk dengan Google</button>
+            </div>
+
+        </div>
+
+        <!-- REGISTER -->
+        <div id="boxRegister" class="formBoxRegister">
+
+            <div class="formLogo">
+                <img src="image/Chill-Logo.svg" alt="Chill Logo">
+                <h1>CHILL</h1>
+            </div>
+
+            <div class="formGreeting">
+                <h2>Daftar</h2>
+                <p>Selemat datang!</p>
+            </div>
+
+            <!-- FORM -->
+            <form class="inputLogin">
+                <div class="inputPassword">
+                    <label for=""><b>Username</b></label>
+                    <input type="text" placeholder="Masukan username">
+                </div>
+                <div class="inputPassword">
+                    <label for=""><b>Kata sandi</b></label>
+                    <input type="password" placeholder="Masukan kata sandi">
+                    <img id='hideButton'src="image/visibility_off.svg"onClick='pass()' >
+                </div>    
+                <div class="inputPassword">
+                    <label for=""><b>Konfirmasi Kata sandi</b></label>
+                    <input type="password" placeholder="Konfirmasi kata sandi">
+                    <img id='hideButton'src="image/visibility_off.svg"onClick='pass()' >
+                </div>            
+            </form>
+            
+            <div class="daftar">
+                <p>Sudah punya akun?<a id="login" href="#">Masuk</a></p>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="buttonLogin">
+                <button class="buttonMasuk">Daftar</button>
+                <p>Atau</p>
+                <button class="buttonMasuk google-login"><img src="image/google.png" alt="Google"> Daftar dengan Google</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
