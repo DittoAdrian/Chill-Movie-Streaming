@@ -353,7 +353,7 @@ body {
 /* ======================== Top Rating Film dan Series Hari ini ======================== */
 
 .topRating {
-  margin-top: 1.5%;
+  margin-top: 1%;
   display: block;
   max-width: 90vw;
   position: relative;
