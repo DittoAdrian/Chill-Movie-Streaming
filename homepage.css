@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* ======================== Navbar ======================== */
 .navbar {
@@ -656,6 +656,11 @@ footer {
     font-size: 11px;
     padding: 4px 9px;
   }
+  .topRating h1,
+  .filmTranding h1,
+  .rilisBaru h1{
+    font-size: 20px;
+  }
   .card-container-toprating {
     height: 180px;
     display: flex;
@@ -701,4 +706,5 @@ footer {
   .copyright{
     margin: 10px 0px 10px 0px;
   }
+
 }
